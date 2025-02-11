@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9043905082926232859}
   - component: {fileID: 9090566966782511963}
   - component: {fileID: 1296518844435380805}
+  - component: {fileID: 6213179741656645316}
   m_Layer: 6
   m_Name: ObjectDrag
   m_TagString: Untagged
@@ -149,3 +150,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &6213179741656645316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180670233551779556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fe18dfff61149044990765537b1dbcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  card: {fileID: 0}
