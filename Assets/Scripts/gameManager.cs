@@ -7,6 +7,8 @@ public class gameManager : MonoBehaviour
     public GameObject draggingObject;
     public GameObject currentContainer;
 
+    public List<objectContainer> Containers = new List<objectContainer>();
+
     public static gameManager instance;
 
     private void Awake()
@@ -22,5 +24,10 @@ public class gameManager : MonoBehaviour
             obj.localPosition = Vector3.zero;
             currentContainer.GetComponent<objectContainer>().isFull = true;
         }
+    }
+
+    public objectContainer GetRandomObjectContainer()
+    {
+        return Containers[Random.Range(0, Containers.Count)];
     }
 }
