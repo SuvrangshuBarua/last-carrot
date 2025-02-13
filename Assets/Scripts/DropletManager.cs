@@ -42,6 +42,7 @@ public class DropletManager : MonoBehaviour
         GameObject newDroplet = Instantiate(droplets[dropletType], container.transform);
         newDroplet.transform.localPosition = Vector2.zero;
         activeDroplets.Add(newDroplet);
+        
     }
     void CollectDroplet()
     {
@@ -66,11 +67,19 @@ public class DropletManager : MonoBehaviour
             }
         }
     }
-
     public void RemoveDroplet(GameObject droplet)
     {
         activeDroplets.Remove(droplet);
         Destroy(droplet);
     }
 
+    public int GetCollectedResources()
+    {
+        return collectedResources;
+    }
+
+    public int GetActiveDropletCount()
+    {
+        return activeDroplets.Count;
+    }
 }
