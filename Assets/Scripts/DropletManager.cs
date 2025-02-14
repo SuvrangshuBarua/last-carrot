@@ -39,9 +39,16 @@ public class DropletManager : MonoBehaviour
         objectContainer container = gameManager.instance.GetRandomObjectContainer();
         int dropletType = Random.Range(0, droplets.Count);
 
-        GameObject newDroplet = Instantiate(droplets[dropletType], container.transform);
-        newDroplet.transform.localPosition = Vector2.zero;
-        activeDroplets.Add(newDroplet);
+        if (container != null)
+        {
+            
+            GameObject newDroplet = Instantiate(droplets[dropletType], container.transform);
+            Droplet droplet = newDroplet.GetComponent<Droplet>();
+            droplet.AssignContainer(container);
+            newDroplet.transform.localPosition = Vector2.zero;
+            activeDroplets.Add(newDroplet);
+        }
+        
     }
     void CollectDroplet()
     {
@@ -59,6 +66,8 @@ public class DropletManager : MonoBehaviour
 
             if (activeDroplets.Contains(clickedObject))
             {
+                Droplet droplet = clickedObject.GetComponent<Droplet>();
+                droplet.UnassignContainer();
                 RemoveDroplet(clickedObject);
                 collectedResources++;
                 Debug.Log($"Resources collected: {collectedResources}");

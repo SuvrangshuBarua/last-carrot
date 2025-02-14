@@ -6,9 +6,21 @@ using UnityEngine.UI;
 
 public class objectContainer : MonoBehaviour
 {
-    public bool isFull;
+    [SerializeField] private bool isOccupied;
     public gameManager manager;
     public Image backgroundImage;
+
+    public bool IsOccupied
+    {
+        get
+        {
+            return isOccupied;
+        }
+        set
+        {
+            isOccupied = value;
+        }
+    }
 
     private void Start()
     {
@@ -16,7 +28,7 @@ public class objectContainer : MonoBehaviour
     }
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (manager.currentContainer == null && manager.draggingObject != null && isFull == false)
+        if (manager.currentContainer == null && manager.draggingObject != null && isOccupied == false)
         {
             manager.currentContainer = this.gameObject;
             backgroundImage.enabled = true;
