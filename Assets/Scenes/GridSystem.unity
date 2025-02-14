@@ -5498,6 +5498,8 @@ MonoBehaviour:
   - {fileID: 8546882851353807871, guid: d732654cd975c864c88b27823ef92f23, type: 3}
   maxDroplets: 3
   spawnInterval: 2
+  collectedResources: 0
+  CollectedResources: 0
 --- !u!4 &1962118505
 Transform:
   m_ObjectHideFlags: 0

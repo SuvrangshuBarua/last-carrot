@@ -11,7 +11,7 @@ public class GridSystemTesting
     {
         var container = new GameObject().AddComponent<objectContainer>();
         container.transform.position = Vector3.zero;
-        container.isFull = false;
+        container.IsOccupied = false;
 
         var manager = new GameObject().AddComponent<gameManager>();
         gameManager.instance = manager;
@@ -44,7 +44,7 @@ public class GridSystemTesting
     {
         // Creating a Mock Container
         var container = new GameObject().AddComponent<objectContainer>();
-        container.isFull = true; // Simulating occupied tile
+        container.IsOccupied = true; // Simulating occupied tile
 
         // Creating a Mock Manager
         var manager = new GameObject().AddComponent<gameManager>();
@@ -76,7 +76,7 @@ public class GridSystemTesting
     {
         // Creating a Mock Container
         var container = new GameObject("Container").AddComponent<objectContainer>();
-        container.isFull = true; // Mark the container as occupied
+        container.IsOccupied = true; // Mark the container as occupied
 
         // Creating a Mock Manager
         var manager = new GameObject("GameManager").AddComponent<gameManager>();

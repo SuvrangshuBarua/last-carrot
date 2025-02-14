@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class gameManager : MonoBehaviour
@@ -22,12 +23,17 @@ public class gameManager : MonoBehaviour
         {
             Transform obj = Instantiate(draggingObject.GetComponent<objectDragging>().card.objectPlacement, currentContainer.transform).transform;
             obj.localPosition = Vector3.zero;
-            currentContainer.GetComponent<objectContainer>().isFull = true;
+            currentContainer.GetComponent<objectContainer>().IsOccupied = true;
         }
     }
 
     public objectContainer GetRandomObjectContainer()
     {
-        return Containers[Random.Range(0, Containers.Count)];
+        var availableContainers = Containers.Where(c => !c.IsOccupied).ToList();
+
+        if (availableContainers.Count == 0)
+            return null;
+
+        return availableContainers[Random.Range(0, availableContainers.Count)];
     }
 }
