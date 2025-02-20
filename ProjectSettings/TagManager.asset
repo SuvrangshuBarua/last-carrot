@@ -5,16 +5,23 @@ TagManager:
   serializedVersion: 2
   tags:
   - Droplet
+  - Defence
+  - Canvas
+  - Bunny
+  - MusicSlider
+  - SFXSlider
+  - BackgroundMusic
+  - MainMenuCamera
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Pause UI
   - Water
   - UI
   - DraggingObject
   - Container
-  - 
+  - Bunny
   - 
   - 
   - 
@@ -41,4 +48,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Defences and Bunnies
+    uniqueID: 2643285543
+    locked: 0
+  - name: Droplet
+    uniqueID: 3351482747
     locked: 0

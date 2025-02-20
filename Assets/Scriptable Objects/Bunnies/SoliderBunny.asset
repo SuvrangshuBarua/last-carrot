@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 163c64a366c1b274f9498adacd8ab195, type: 3}
+  m_Name: SoliderBunny
+  m_EditorClassIdentifier: 
+  bunnyDefault: {fileID: 3386605384797516914, guid: f0be868b2e0e1cf40bd7cc48e9e00d8e, type: 3}
+  bunnyAccessory: {fileID: 0}
+  accessoryHealth: 0
+  bunnyHealth: 150
+  bunnyHandHealth: 0
+  bunnyDamage: 10
+  bunnySpeed: 0.4
+  attackInterval: 1

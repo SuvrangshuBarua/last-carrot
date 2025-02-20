@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c865242ad33d54f4c85f5e17bd33105d, type: 3}
+  m_Name: Egg
+  m_EditorClassIdentifier: 
+  defenceIcon: {fileID: 2800000, guid: 6bd2ed358c304b1438b46aeae1bdfb44, type: 3}
+  bullet: {fileID: 0}
+  defenceSprite: {fileID: 21300000, guid: 6bd2ed358c304b1438b46aeae1bdfb44, type: 3}
+  bunnyLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  cost: 50
+  cooldown: 3
+  isSprinkler: 0
+  dropletSpawnerTemplate: {fileID: 0}
+  health: 5000
+  damage: 0
+  range: 0
+  speed: 0
+  fireRate: 0
+  isEgg: 1
+  damagedEgg: {fileID: 0}
+  isTrap: 0
+  changeDuration: 0
+  changedSprite: {fileID: 0}
+  spriteStates:
+  - {fileID: 21300000, guid: 6bd2ed358c304b1438b46aeae1bdfb44, type: 3}
+  - {fileID: 21300000, guid: 24233dce544f02a4e8af2a5da1830776, type: 3}
+  size: {x: 0.8, y: 0.8}
