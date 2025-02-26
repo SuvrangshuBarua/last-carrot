@@ -4,15 +4,13 @@
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
         "nunit.framework",
-        "BunnyAiTest",
-        "BunnyController",
         "MyCode"
     ],
     "includePlatforms": [
-    "Editor"
+    
     ],
     "excludePlatforms": [
-        
+        "Editor"
     ],
     "allowUnsafeCode": false,
     "overrideReferences": false,
