@@ -1,5 +1,6 @@
 {
     "name": "PlayModeTests",
+    "rootNamespace": "",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
@@ -7,10 +8,10 @@
         "MyCode"
     ],
     "includePlatforms": [
-    
+    "Editor"    
     ],
     "excludePlatforms": [
-        "Editor"
+        
     ],
     "allowUnsafeCode": false,
     "overrideReferences": false,
