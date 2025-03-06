@@ -36,3 +36,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6bd2ed358c304b1438b46aeae1bdfb44, type: 3}
   - {fileID: 21300000, guid: 24233dce544f02a4e8af2a5da1830776, type: 3}
   size: {x: 0.8, y: 0.8}
+  colliderSize: {x: 0, y: 0}
+  radius: 0
+  name: 
+  amountOfBullet: 1
+  rateBetweenBullets: 0.25

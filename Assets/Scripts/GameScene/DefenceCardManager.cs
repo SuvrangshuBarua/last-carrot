@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,7 +11,7 @@ public class DefenceCardManager : MonoBehaviour
     
     [Header("Cards Parameters")]
     public int amountOfCards = 0;
-    public DefenceCardScriptableObject[] defenceCardSO;
+    public DefenceCardScriptableObject[] defenceCardSO; 
     public GameObject cardPrefab;
     public Transform cardHolderTransform;
 
@@ -34,9 +34,32 @@ public class DefenceCardManager : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("Size of defenceCardSO: " + defenceCardSO.Length);
         amountOfCards = defenceCardSO.Length;
         defenceCards = new List<GameObject>();
-
+        // Print the contents of defenceCardSO
+        for (int i = 0; i < defenceCardSO.Length; i++)
+        {
+            if (defenceCardSO[i] != null)
+            {
+                Debug.Log($"Card {i}: Name = {defenceCardSO[i].name}, Cost = {defenceCardSO[i].cost}, Damage = {defenceCardSO[i].damage}");
+            }
+            else
+            {
+                Debug.LogWarning($"Card {i} is null!");
+            }
+        }// Print the contents of defenceCardSO
+        for (int i = 0; i < defenceCardSO.Length; i++)
+        {
+            if (defenceCardSO[i] != null)
+            {
+                Debug.Log($"Card {i}: Name = {defenceCardSO[i].name}, Cost = {defenceCardSO[i].cost}, Damage = {defenceCardSO[i].damage}");
+            }
+            else
+            {
+                Debug.LogWarning($"Card {i} is null!");
+            }
+        }
         selectionCards = new List<GameObject>();
 
         for(int i = 0; i < amountOfCards; i++)
@@ -47,7 +70,8 @@ public class DefenceCardManager : MonoBehaviour
             // if (cardPrefab == null) Debug.LogError("Card Prefab is null!");
             // if (cardHolderTransform == null) Debug.LogError("Card Holder Transform is null!");
             // AddDefenceCard(i);
-        }  
+        }
+
     }
 
     // Update is called once per frame

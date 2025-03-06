@@ -613,6 +613,8 @@ MonoBehaviour:
   defaultBunnyPrefab: {fileID: 618712850131103001, guid: fbb07869687348b4ebe363ae28280527, type: 3}
   soldierBunnyPrefab: {fileID: 3386605384797516914, guid: f0be868b2e0e1cf40bd7cc48e9e00d8e, type: 3}
   fastBunnyPrefab: {fileID: 5265263156650143381, guid: 60970b83bc644834f9173ffb4fef4bb7, type: 3}
+  selectDefences: {fileID: 0}
+  isActive: 0
 --- !u!1 &160509014
 GameObject:
   m_ObjectHideFlags: 0
@@ -6037,10 +6039,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff7b67b80310ab4ebe6b2f67f9f761f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amountOfCards: 5
+  amountOfCards: 6
   defenceCardSO:
   - {fileID: 11400000, guid: e43921acfe3b9314388848c42e7164bd, type: 2}
   - {fileID: 11400000, guid: d586f375b6580fa488ef5c86ea9504d5, type: 2}
+  - {fileID: 11400000, guid: ed4e44b97eb9c4c4380998dee2b5f32a, type: 2}
   - {fileID: 11400000, guid: 6dd1c7e738b86284dbf2aca241b21699, type: 2}
   - {fileID: 11400000, guid: 4b7935809dfa2d24ba59a40877216ed5, type: 2}
   - {fileID: 11400000, guid: dea469304f0d7a24c9e3a6ea278dc1f4, type: 2}
@@ -6055,6 +6058,7 @@ MonoBehaviour:
   selectedIndexes: 
   selectionCards: []
   minCardAllowed: 2
+  maxCardAllowed: 0
   letsRockButton: {fileID: 1003210502}
 --- !u!4 &1181710873
 Transform:
@@ -12449,6 +12453,63 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defence: {fileID: 0}
   isOccupied: 0
+--- !u!1001 &2340896294481395092
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 910586059394099951, guid: 2f1b3005f4c81f34aa1f45af79645996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 910586059394099951, guid: 2f1b3005f4c81f34aa1f45af79645996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 910586059394099951, guid: 2f1b3005f4c81f34aa1f45af79645996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 910586059394099951, guid: 2f1b3005f4c81f34aa1f45af79645996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 910586059394099951, guid: 2f1b3005f4c81f34aa1f45af79645996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 910586059394099951, guid: 2f1b3005f4c81f34aa1f45af79645996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 910586059394099951, guid: 2f1b3005f4c81f34aa1f45af79645996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 910586059394099951, guid: 2f1b3005f4c81f34aa1f45af79645996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 910586059394099951, guid: 2f1b3005f4c81f34aa1f45af79645996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 910586059394099951, guid: 2f1b3005f4c81f34aa1f45af79645996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855719120237073991, guid: 2f1b3005f4c81f34aa1f45af79645996, type: 3}
+      propertyPath: m_Name
+      value: Rock
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2f1b3005f4c81f34aa1f45af79645996, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -12462,3 +12523,4 @@ SceneRoots:
   - {fileID: 1081289974}
   - {fileID: 951502977}
   - {fileID: 1135905487}
+  - {fileID: 2340896294481395092}

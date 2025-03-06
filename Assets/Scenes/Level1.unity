@@ -614,6 +614,7 @@ MonoBehaviour:
   soldierBunnyPrefab: {fileID: 3386605384797516914, guid: f0be868b2e0e1cf40bd7cc48e9e00d8e, type: 3}
   fastBunnyPrefab: {fileID: 5265263156650143381, guid: 60970b83bc644834f9173ffb4fef4bb7, type: 3}
   selectDefences: {fileID: 637672224}
+  isActive: 0
 --- !u!1 &160509014
 GameObject:
   m_ObjectHideFlags: 0
@@ -6038,13 +6039,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ff7b67b80310ab4ebe6b2f67f9f761f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amountOfCards: 5
+  amountOfCards: 6
   defenceCardSO:
   - {fileID: 11400000, guid: e43921acfe3b9314388848c42e7164bd, type: 2}
   - {fileID: 11400000, guid: d586f375b6580fa488ef5c86ea9504d5, type: 2}
   - {fileID: 11400000, guid: 6dd1c7e738b86284dbf2aca241b21699, type: 2}
   - {fileID: 11400000, guid: 4b7935809dfa2d24ba59a40877216ed5, type: 2}
   - {fileID: 11400000, guid: dea469304f0d7a24c9e3a6ea278dc1f4, type: 2}
+  - {fileID: 11400000, guid: ed4e44b97eb9c4c4380998dee2b5f32a, type: 2}
   cardPrefab: {fileID: 3781589265541379799, guid: cf935aedb86bf5641a27d069dd9349e0, type: 3}
   cardHolderTransform: {fileID: 1185810467}
   defenceCards: []
