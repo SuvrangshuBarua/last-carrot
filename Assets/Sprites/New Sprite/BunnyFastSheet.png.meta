@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,238 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: BunnyFastSheet_4
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 714
+        width: 183
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0a1795859cf8e44bd0d54330fefd36
+      internalID: 359155056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyFastSheet_
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 683
+        width: 132
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d1f92e1d8367748b0c6b87b9c9d290
+      internalID: 1654888549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyFastSheet_3
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 675
+        width: 193
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13beb693651487445b92c2f39a11995a
+      internalID: 404572795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyFastSheet_2
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 683
+        width: 132
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970d3c503f242cf47a9426fa72492281
+      internalID: 399904002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyFastSheet_6
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 432
+        width: 182
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826eb7b567c65d84c94f606ce03a94de
+      internalID: 1632497084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyFastSheet_7
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 430
+        width: 183
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36d8828013b393488f7e8b35db4d898
+      internalID: -412772799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyFastSheet_5
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 429
+        width: 182
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69efad7010d502047977c8816c1f6915
+      internalID: -1876153870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyFastSheet_8
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 395
+        width: 176
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56eda06585da16742aed5e5a0346b207
+      internalID: -1871637397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyFastSheet_10
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 83
+        width: 132
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24db5e5495e216043b64f39f869ecde1
+      internalID: 1423815532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyFastSheet_9
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 60
+        width: 186
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a161af24a7df3ac46b5bbaa7b5977667
+      internalID: 1883600893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyFastSheet_11
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 83
+        width: 132
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f220f8f33b263642b55ae784dcc29fd
+      internalID: -943851082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +337,38 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BunnyFastSheet_: 1654888549
+      BunnyFastSheet_0: -1958336475
+      BunnyFastSheet_10: 1423815532
+      BunnyFastSheet_11: -943851082
+      BunnyFastSheet_12: -2045879870
+      BunnyFastSheet_13: 831429843
+      BunnyFastSheet_14: 42193089
+      BunnyFastSheet_15: 131472329
+      BunnyFastSheet_2: 399904002
+      BunnyFastSheet_20: -295667449
+      BunnyFastSheet_21: -1938774978
+      BunnyFastSheet_22: -1659834147
+      BunnyFastSheet_23: -2077724049
+      BunnyFastSheet_24: 241067765
+      BunnyFastSheet_26: -402742455
+      BunnyFastSheet_27: 785454557
+      BunnyFastSheet_28: -1210919141
+      BunnyFastSheet_3: 404572795
+      BunnyFastSheet_31: -854370666
+      BunnyFastSheet_32: 599175318
+      BunnyFastSheet_33: -130562176
+      BunnyFastSheet_34: 945144081
+      BunnyFastSheet_35: -704215211
+      BunnyFastSheet_36: -1460859551
+      BunnyFastSheet_37: 1576650180
+      BunnyFastSheet_4: 359155056
+      BunnyFastSheet_5: -1876153870
+      BunnyFastSheet_6: 1632497084
+      BunnyFastSheet_7: -412772799
+      BunnyFastSheet_8: -1871637397
+      BunnyFastSheet_9: 1883600893
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

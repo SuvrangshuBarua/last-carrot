@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,238 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: BunnyToughSheet_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 683
+        width: 131
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcdfc24c1d046de40ae122c16a851034
+      internalID: -525622968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyToughSheet_1
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 683
+        width: 131
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14c021d4a619c94291cd2998aea47b9
+      internalID: -913592928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyToughSheet_2
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 679
+        width: 186
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85908e32a76893a45a742f7605e7b0ed
+      internalID: -1424910493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyToughSheet_3
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 714
+        width: 181
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13e8afac7a8dbb47acc0218d7fc61a9
+      internalID: -1623156525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyToughSheet_4
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 431
+        width: 180
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f34eff4cc93d054199493514876e3d0
+      internalID: 984143852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyToughSheet_5
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 433
+        width: 180
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137ffc17c8c5a9c488bfbcc7bc3a1371
+      internalID: 458291578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyToughSheet_6
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 432
+        width: 181
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95397fcc2055a342bd6ea84631da9b7
+      internalID: 1827891196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyToughSheet_7
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 397
+        width: 176
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd015f8170c5b94b9910129ee4abe4a
+      internalID: 726176253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyToughSheet_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 62
+        width: 179
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80d1a2fa2313834b8d47e6ed820a5de
+      internalID: 798597425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyToughSheet_9
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 83
+        width: 131
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d45041dd4a12b458c440d639566de1
+      internalID: -2036572399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyToughSheet_10
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 83
+        width: 131
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a39cfb4f8b8b54babb66c1ff074db0
+      internalID: -1569387078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +363,26 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BunnyToughSheet_0: -525622968
+      BunnyToughSheet_1: -913592928
+      BunnyToughSheet_10: -1569387078
+      BunnyToughSheet_12: 1730937257
+      BunnyToughSheet_13: -788639932
+      BunnyToughSheet_14: 1920920491
+      BunnyToughSheet_15: 528903071
+      BunnyToughSheet_16: -956504434
+      BunnyToughSheet_18: -157455001
+      BunnyToughSheet_2: -1424910493
+      BunnyToughSheet_21: -570578633
+      BunnyToughSheet_22: 1031064065
+      BunnyToughSheet_3: -1623156525
+      BunnyToughSheet_4: 984143852
+      BunnyToughSheet_5: 458291578
+      BunnyToughSheet_6: 1827891196
+      BunnyToughSheet_7: 726176253
+      BunnyToughSheet_8: 798597425
+      BunnyToughSheet_9: -2036572399
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
