@@ -110,11 +110,11 @@ public class DefenceCardManager : MonoBehaviour
 
             if (animator == null)
             {
-                Debug.LogError("⚠ No Animator found on instantiated object (Selection): " + card.name);
+                Debug.LogError("No Animator found on instantiated object (Selection): " + card.name);
             }
             else
             {
-                Debug.Log("✅ Animator found on instantiated object (Selection): " + card.name);
+                Debug.Log("Animator found on instantiated object (Selection): " + card.name);
             }
             //// ✅ **Trigger animation only if the object has animation**
             //if (defenceCardSO[index].hasAnimation)

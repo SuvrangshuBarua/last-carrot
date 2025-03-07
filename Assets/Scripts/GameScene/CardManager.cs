@@ -168,12 +168,18 @@ public class CardManager : MonoBehaviour, IDragHandler, IPointerUpHandler, IPoin
 
         defence.GetComponent<DefenceManager>().isDragging = false;
 
-        //Trigger the animation here instead of OnPointerDown
+        //Trigger the animation here
        Animator animator = defence.GetComponent<Animator>();
-        if (animator != null)
+        if (defenceCardScriptableObject.hasAnimation)
         {
             Debug.Log("Triggering animation for placed defence: " + defenceCardScriptableObject.name);
             animator.SetBool("Activate", true);
+
+        }
+        else {
+
+            animator.SetBool("Activate", false);
+
         }
 
         if (defenceCardScriptableObject.isSprinkler)
