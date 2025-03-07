@@ -147,6 +147,7 @@ GameObject:
   - component: {fileID: 4969030151310568767}
   - component: {fileID: 129726970946101750}
   - component: {fileID: 5606504917806197143}
+  - component: {fileID: 6161155128274670063}
   m_Layer: 5
   m_Name: DefenceCardSelection
   m_TagString: Untagged
@@ -252,6 +253,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ShowMaskGraphic: 1
+--- !u!95 &6161155128274670063
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4643458584011461547}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 971564ac759a4a245913b94ebbf3176d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5320020848090928946
 GameObject:
   m_ObjectHideFlags: 0

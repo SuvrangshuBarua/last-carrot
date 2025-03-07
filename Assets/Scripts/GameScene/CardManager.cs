@@ -168,6 +168,14 @@ public class CardManager : MonoBehaviour, IDragHandler, IPointerUpHandler, IPoin
 
         defence.GetComponent<DefenceManager>().isDragging = false;
 
+        //Trigger the animation here instead of OnPointerDown
+       Animator animator = defence.GetComponent<Animator>();
+        if (animator != null)
+        {
+            Debug.Log("Triggering animation for placed defence: " + defenceCardScriptableObject.name);
+            animator.SetBool("Activate", true);
+        }
+
         if (defenceCardScriptableObject.isSprinkler)
         {
             DropletSpawner dropletSpawner = defence.AddComponent<DropletSpawner>();
