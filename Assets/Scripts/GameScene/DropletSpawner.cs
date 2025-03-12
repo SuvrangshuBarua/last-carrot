@@ -15,8 +15,29 @@ public class DropletSpawner : MonoBehaviour
 
     private void Start()
     {
+        if (isSprinkler)
+        {
+            time = Random.Range(minTime, maxTime);
+            if (!isSprinkler)
+            {
+                pos.x = Random.Range(minPos.x, maxPos.x);
+                pos.y = Random.Range(minPos.y, maxPos.y);
+                pos.z = -1;
+            }
+            else
+            {
+                pos.x = 0;
+                pos.y = 0;
+                pos.z = -1;
+            }
+            StartCoroutine(SpawnDroplet());
+        }
+    }
+
+    public void StartSpawning()
+    {
         time = Random.Range(minTime, maxTime);
-        if(!isSprinkler)
+        if (!isSprinkler)
         {
             pos.x = Random.Range(minPos.x, maxPos.x);
             pos.y = Random.Range(minPos.y, maxPos.y);
@@ -26,7 +47,7 @@ public class DropletSpawner : MonoBehaviour
         {
             pos.x = 0;
             pos.y = 0;
-            pos.z = -1;            
+            pos.z = -1;
         }
         StartCoroutine(SpawnDroplet());
     }

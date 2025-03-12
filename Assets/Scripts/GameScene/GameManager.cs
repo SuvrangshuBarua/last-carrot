@@ -48,7 +48,7 @@ public class GameManager : MonoBehaviour
         CardManager.isGameStart = true;
         RefreshAllDefenceCards();
         bunnyManager.SpawnBunnies();
-
+        FindObjectOfType<DropletSpawner>().StartSpawning();
         DeathManager.instance.hasLost = false;
     }
 
