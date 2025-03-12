@@ -12,6 +12,7 @@ TagManager:
   - SFXSlider
   - BackgroundMusic
   - MainMenuCamera
+  - EnvironmentObstacles
   layers:
   - Default
   - TransparentFX

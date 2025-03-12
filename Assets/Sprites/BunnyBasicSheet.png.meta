@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,238 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: BunnyBasicSheet_0
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 682
+        width: 135
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b63b5162877774ba77e63ba8917cf8
+      internalID: 281040946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyBasicSheet_1
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 682
+        width: 135
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bc22a486b57e34db9acf1536c916bc
+      internalID: -2059035015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyBasicSheet_2
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 678
+        width: 192
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a7742a1263e2241845659e0b8226a1
+      internalID: 220766524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyBasicSheet_3
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 715
+        width: 182
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811b4608e12b6bf4895e4c44f4baf0b4
+      internalID: -55315791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyBasicSheet_4
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 429
+        width: 182
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d937a7dafe20841a4c6b0707c9fe2f
+      internalID: -229155199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyBasicSheet_5
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 431
+        width: 182
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85bcbe46b5be1141b3823bed761cc8b
+      internalID: -1681681398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyBasicSheet_6
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 431
+        width: 184
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e05b558236113b4aa9ca143f77dbef4
+      internalID: 1726045511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyBasicSheet_7
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 397
+        width: 178
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22742d92c19cf14dbbee8c5b3a4499d
+      internalID: -1031328126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyBasicSheet_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 62
+        width: 167
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c214d144fabc3468d69712912b10c1
+      internalID: -1904790193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyBasicSheet_9
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 82
+        width: 135
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5aac57b4e82814abdfa6cdb8398294
+      internalID: 2050450696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BunnyBasicSheet_10
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 82
+        width: 135
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4636d4e4559b84e9f7c19e43616884
+      internalID: -644508632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +337,25 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BunnyBasicSheet_0: 281040946
+      BunnyBasicSheet_1: -2059035015
+      BunnyBasicSheet_10: -644508632
+      BunnyBasicSheet_12: 710649929
+      BunnyBasicSheet_13: 1564243707
+      BunnyBasicSheet_14: 1550982972
+      BunnyBasicSheet_15: 51391657
+      BunnyBasicSheet_17: 1073656579
+      BunnyBasicSheet_2: 220766524
+      BunnyBasicSheet_20: 646137323
+      BunnyBasicSheet_21: 1090874494
+      BunnyBasicSheet_3: -55315791
+      BunnyBasicSheet_4: -229155199
+      BunnyBasicSheet_5: -1681681398
+      BunnyBasicSheet_6: 1726045511
+      BunnyBasicSheet_7: -1031328126
+      BunnyBasicSheet_8: -1904790193
+      BunnyBasicSheet_9: 2050450696
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

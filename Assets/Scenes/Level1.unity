@@ -614,6 +614,7 @@ MonoBehaviour:
   soldierBunnyPrefab: {fileID: 3386605384797516914, guid: f0be868b2e0e1cf40bd7cc48e9e00d8e, type: 3}
   fastBunnyPrefab: {fileID: 5265263156650143381, guid: 60970b83bc644834f9173ffb4fef4bb7, type: 3}
   selectDefences: {fileID: 637672224}
+  isActive: 0
 --- !u!1 &160509014
 GameObject:
   m_ObjectHideFlags: 0
