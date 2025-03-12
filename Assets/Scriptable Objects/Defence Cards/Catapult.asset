@@ -18,7 +18,7 @@ MonoBehaviour:
   bunnyLayer:
     serializedVersion: 2
     m_Bits: 256
-  cost: 200
+  cost: 250
   cooldown: 5
   isSprinkler: 0
   dropletSpawnerTemplate: {fileID: 0}
