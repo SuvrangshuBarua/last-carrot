@@ -2,7 +2,9 @@
     "name": "MyCode",
     "rootNamespace": "",
     "references": [
-        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:ef99c19a3a8583143af42c967d48b0bb",
+        "GUID:5b3bc08d69f211c4abb7b24f36739e45"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

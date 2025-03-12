@@ -34,3 +34,8 @@ MonoBehaviour:
   changedSprite: {fileID: 0}
   spriteStates: []
   size: {x: 1, y: 1}
+  colliderSize: {x: 0, y: 0}
+  radius: 0
+  name: 
+  amountOfBullet: 1
+  rateBetweenBullets: 0.25

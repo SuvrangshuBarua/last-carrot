@@ -18,7 +18,8 @@ public class DefenceCardScriptableObject : ScriptableObject
     public float damage;
     public float range;
     public float speed;
-    public float fireRate; 
+    public float fireRate;
+    public bool hasAnimation; // if the defence has an animation
     [Header("Egg Parameters")]
     public bool isEgg;
     public Sprite damagedEgg;
@@ -39,8 +40,8 @@ public class DefenceCardScriptableObject : ScriptableObject
     public int amountOfBullet = 1;
     public float rateBetweenBullets = 0.25f;
 
-// #nullable enable
-//     public DefenceCardScriptableObject? placedOn;
-//     public bool placeOnOtherDefence;
-// #nullable enable
+    // #nullable enable
+    //     public DefenceCardScriptableObject? placedOn;
+    //     public bool placeOnOtherDefence;
+    // #nullable enable
 }

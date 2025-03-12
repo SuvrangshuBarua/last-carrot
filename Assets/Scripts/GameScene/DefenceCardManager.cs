@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,7 +11,7 @@ public class DefenceCardManager : MonoBehaviour
     
     [Header("Cards Parameters")]
     public int amountOfCards = 0;
-    public DefenceCardScriptableObject[] defenceCardSO;
+    public DefenceCardScriptableObject[] defenceCardSO; 
     public GameObject cardPrefab;
     public Transform cardHolderTransform;
 
@@ -34,9 +34,32 @@ public class DefenceCardManager : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("Size of defenceCardSO: " + defenceCardSO.Length);
         amountOfCards = defenceCardSO.Length;
         defenceCards = new List<GameObject>();
-
+        // Print the contents of defenceCardSO
+        for (int i = 0; i < defenceCardSO.Length; i++)
+        {
+            if (defenceCardSO[i] != null)
+            {
+                Debug.Log($"Card {i}: Name = {defenceCardSO[i].name}, Cost = {defenceCardSO[i].cost}, Damage = {defenceCardSO[i].damage}");
+            }
+            else
+            {
+                Debug.LogWarning($"Card {i} is null!");
+            }
+        }// Print the contents of defenceCardSO
+        for (int i = 0; i < defenceCardSO.Length; i++)
+        {
+            if (defenceCardSO[i] != null)
+            {
+                Debug.Log($"Card {i}: Name = {defenceCardSO[i].name}, Cost = {defenceCardSO[i].cost}, Damage = {defenceCardSO[i].damage}");
+            }
+            else
+            {
+                Debug.LogWarning($"Card {i} is null!");
+            }
+        }
         selectionCards = new List<GameObject>();
 
         for(int i = 0; i < amountOfCards; i++)
@@ -47,7 +70,8 @@ public class DefenceCardManager : MonoBehaviour
             // if (cardPrefab == null) Debug.LogError("Card Prefab is null!");
             // if (cardHolderTransform == null) Debug.LogError("Card Holder Transform is null!");
             // AddDefenceCard(i);
-        }  
+        }
+
     }
 
     // Update is called once per frame
@@ -81,6 +105,39 @@ public class DefenceCardManager : MonoBehaviour
             selectedIndexes.Add(index);
 
             GameObject card = Instantiate(cardPrefab, cardHolderTransform);
+            //GameObject card = Instantiate(cardPrefab, cardHolderTransform);
+            Animator animator = card.GetComponent<Animator>();
+
+            if (animator == null)
+            {
+                Debug.LogError("No Animator found on instantiated object (Selection): " + card.name);
+            }
+            else
+            {
+                Debug.Log("Animator found on instantiated object (Selection): " + card.name);
+            }
+            //// ✅ **Trigger animation only if the object has animation**
+            //if (defenceCardSO[index].hasAnimation)
+            //{
+            //    //Animator animator = card.GetComponent<Animator>();
+            //    if (animator != null)
+            //    {
+            //        Debug.Log("Triggering animation for " + defenceCardSO[index].name);
+            //        animator.SetTrigger("Activate");
+            //        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+
+            //        if (stateInfo.IsName("CatarpultAnimations"))  // Ensure this matches the name of the animation state
+            //        {
+            //            Debug.Log("Animation is playing.");
+            //        }
+            //        else
+            //        {
+            //            Debug.Log("Animation is not playing yet, or transition failed.");
+            //        }
+            //    }
+              
+            //}
+
             CardManager cardManager = card.GetComponent<CardManager>();
 
             cardManager.defenceCardScriptableObject = defenceCardSO[index];
@@ -102,12 +159,16 @@ public class DefenceCardManager : MonoBehaviour
             //Updating UI
             card.GetComponentInChildren<RawImage>().texture = defenceIcon;
             card.GetComponentInChildren<TMP_Text>().text = "" + cost;
+
+
         }
     }
 
     private void AddDefenceCardSelection(int index)
     {
         GameObject card = Instantiate(selectionCardPrefab, selectionTransform);
+                    Animator animator = card.GetComponent<Animator>();
+
 
         Debug.Log(selectionTransform.name);
 
